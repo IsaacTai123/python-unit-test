@@ -1,0 +1,14 @@
+endpoint: avjlo6m638ihj-ats.iot.ca-central-1.amazonaws.com
+thingName: 
+publish_topic: fxn/%s/command/request
+subcribe_request_topic : fxn/%s/command/response
+subcrib_event_topic : fxn/%s/events
+certificates:
+  rootca: "certificates/<thing_name>/rootca"
+  cert_path: "certificates/<thing_name>/cert"
+  private_key: "certificates/<thing_name>/privkey"
+log:
+  # When the log functionality is enabled, it will record all of the following logs.
+  enable_log: False
+  info: "log/info.log"
+  count: "log/count.json"

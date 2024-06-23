@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  unit-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/iot-unit-test
+    working_dir: /iot-unit-test
+    command: python main.py

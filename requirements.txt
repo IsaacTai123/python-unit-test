@@ -1,0 +1,7 @@
+awscrt==0.16.23
+AWSIoTPythonSDK==1.5.2
+awsiotsdk==1.16.0
+pytz==2023.3
+PyYAML==6.0.1
+jsonschema==4.20.0
+yapf==0.40.2
